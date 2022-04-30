@@ -20,7 +20,7 @@ import { StaffProvider } from './providers/staffContext';
 function App() {
 
   const stripe = loadStripe(
-    "pk_test_51InFnsSJ9UKCtISEpNJl4j7gCljjZRP0Tm95xENmtL5ETPpMYnxr1GnkwRyN5FHq3uTdRDTyN0hrTJNxfS6TbkVa003YOTi4RO"
+    "pk_test_51KtvTTSH5orWLNFB4WzOZb0MErvaHYmfowZJNoATpEoBdwe4XeWJC3j9RhuCbwLmbrZSGM1USh5kMoeWMrMGkl5Y00yBvLrBGS"
   );
 
   const theme = createMuiTheme({
