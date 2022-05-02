@@ -8,7 +8,7 @@ const Home = () => {
                 <div className="container d-flex justify-content-between">
                     <div className="contact-info d-flex align-items-center">
                         <i className="bi bi-envelope"></i> <a href="mailto:contact@example.com">homehospital@gmail.com</a>
-                        <i className="bi bi-phone"></i> +91 9839426001
+                        <i className="bi bi-phone"></i> +91 7849842621
           </div>
                     <div className="d-none d-lg-flex social-links align-items-center">
                         {/* <a href="#" className="twitter"><i className="bi bi-twitter"></i></a> */}
@@ -427,7 +427,7 @@ Our sales staff can also process other payment types manually, including checks 
                                     <div className="address">
                                         <i className="bi bi-geo-alt"></i>
                                         <h4>Location:</h4>
-                                        <p>Chauri Chaura Gorakhpur UP 273201 India</p>
+                                        <p>Rakabganj Lucknow UP 226018 India</p>
                                     </div>
 
                                     <div className="email">
@@ -439,7 +439,7 @@ Our sales staff can also process other payment types manually, including checks 
                                     <div className="phone">
                                         <i className="bi bi-phone"></i>
                                         <h4>Call:</h4>
-                                        <p>+91 9839426001</p>
+                                        <p>+91 7849842621</p>
                                     </div>
 
                                 </div>
@@ -468,10 +468,10 @@ Our sales staff can also process other payment types manually, including checks 
                             <div className="col-lg-3 col-md-6 footer-contact">
                                 <h3>HomeHospital</h3>
                                 <p>
-                                    Chauri Chaura <br />
-                  Gorakhpur, UP 273201<br />
+                                    Rakabganj <br />
+                  Lucknow, UP 226018<br />
                   India <br /><br />
-                                    <strong>Phone:</strong> +91 9839426001<br />
+                                    <strong>Phone:</strong> +91 7849842621<br />
                                     <strong>Email:</strong> homehospital@gmail.com<br />
                                 </p>
                             </div>
@@ -507,8 +507,7 @@ Our sales staff can also process other payment types manually, including checks 
                             &copy; Copyright <strong><span>HomeHospital</span></strong>. All Rights Reserved
             </div>
                         <div className="credits">
-                            Designed by <a href="https://bootstrapmade.com/">Khan's Team</a>
-                        </div>
+                            Designed by <b>Jayant Gupta </b>                      </div>
                     </div>
                     <div className="social-links text-center text-md-right pt-3 pt-md-0">
                         {/* <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a> */}
