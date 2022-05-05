@@ -121,12 +121,12 @@ const UpdateEquipment = () => {
                                         <label htmlFor="description">Description</label>
                                     </div>
                                 </div>
-                                <div className="col-md">
+                                {/* <div className="col-md">
                                     <div className="form-floating mb-3">
                                         <textarea style={{ height: "100px" }} type="text" className="form-control" id="features" onChange={handleChange} value={values.features} placeholder=" " ></textarea>
                                         <label htmlFor="name">Features</label>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
 
 

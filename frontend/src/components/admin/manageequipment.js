@@ -58,14 +58,14 @@ const ManageEquipment = props => {
                                 </div>
                                 <br />
 
-                                <div className="row">
+                                {/* <div className="row">
                                     <div className="col-4">
                                         <p>Features</p>
                                     </div>
                                     <div className="col-8">
                                         <p>{equipment.features}</p>
                                     </div>
-                                </div>
+                                </div> */}
                                 <br />
 
                                 <div className="row">

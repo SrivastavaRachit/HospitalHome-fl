@@ -150,7 +150,7 @@ const EquipmentDetails = () => {
                         <h3>{equipmentData.name}</h3>
                         <Rating name={'rating'} value={2} />
                         <Typography variant={'body2'} >
-                            4.0
+                          2.0
                         </Typography>
                         <p>{equipmentData.description}</p>
                         <p>{equipmentData.features}</p>
