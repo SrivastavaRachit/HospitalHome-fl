@@ -237,7 +237,7 @@ const ListEquipments = () => {
                                                 <CardContent className={styles.content}>
                                                     <TextInfoContent
                                                         classes={textCardContentStyles}
-                                                        overline={'March 20, 2019'}
+                                                        overline={'March 20, 2022'}
                                                         heading={equipment.name}
                                                         body={
                                                             equipment.description
