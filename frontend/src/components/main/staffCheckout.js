@@ -152,7 +152,7 @@ const StaffCheckout = (props) => {
           <div className="row">
             <div className="col-md-4">
               <div className="product-details">
-                <h3>Equipment Details</h3>
+                <h3>Staff Details</h3>
                 <hr />
 
                 <div className="avatar">
