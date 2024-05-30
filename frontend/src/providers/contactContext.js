@@ -4,16 +4,11 @@ import { createContext } from "react";
 import app_config from "../config";
 
 export const ContactContext = createContext();
-
 export const ContactProvider = props => {
 
     const url = app_config.api_url + '/contact';
 
-
     useEffect(() => {
-
-
-
     }, [])
 
     const addContact = data => {
@@ -27,10 +22,10 @@ export const ContactProvider = props => {
             .then(response => response.json());
     }
 
-  
 
 
-   
+
+
 
     const deleteContact = id => {
 
@@ -48,10 +43,10 @@ export const ContactProvider = props => {
     const toProvide = {
 
         addContact,
-       
+
         getAll,
         deleteContact,
-        
+
     }
 
     return (

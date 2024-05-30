@@ -9,7 +9,7 @@ const Home = () => {
                     <div className="contact-info d-flex align-items-center">
                         <i className="bi bi-envelope"></i> <a href="mailto:contact@example.com">homehospital@gmail.com</a>
                         <i className="bi bi-phone"></i> +91 7849842621
-          </div>
+                    </div>
                     <div className="d-none d-lg-flex social-links align-items-center">
                         {/* <a href="#" className="twitter"><i className="bi bi-twitter"></i></a> */}
                         <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
@@ -29,7 +29,7 @@ const Home = () => {
                             <li><a className="nav-link scrollto " href="#hero">Home</a></li>
                             <li><a className="nav-link scrollto " href="#about">About</a></li>
                             {/* <li><a className="nav-link scrollto" href="#services">Services</a></li> */}
-                            
+
 
                             <li className="dropdown"><a href="#services"><span>Services</span> <i className="bi bi-chevron-down "></i></a>
                                 <ul>
@@ -42,27 +42,27 @@ const Home = () => {
                                             <li><a href="/app/nursingform">Elder Care</a></li>
                                             <li><a href="/app/nursingform">Trained Attendent</a></li>
                                             <li><a href="/app/nursingform">Ward Boy</a></li>
-                                            
+
                                         </ul>
                                     </li>
-                                    
+
                                     <li><a href="/app/listequipments">Medical Equipment</a></li>
-                                   
-                                   
+
+
                                 </ul>
                             </li>
                             <li><a className="nav-link scrollto " href="#contact">Contact</a></li>
                             <li>
-                            <Link to="/app/listequipments" className="nav-link scrollto ">View Equipments</Link>
+                                <Link to="/app/listequipments" className="nav-link scrollto ">View Equipments</Link>
                             </li>
                             <li>
-                            <Link to="/app/listedstaff" className="nav-link scrollto ">View Staff</Link>
+                                <Link to="/app/listedstaff" className="nav-link scrollto ">View Staff</Link>
                             </li>
-                            
+
                         </ul>
                         <i className="bi bi-list mobile-nav-toggle"></i>
                     </nav>
-                   
+
                     <Link to="/app/register" className="appointment-btn scrollto">Register</Link>
                     <Link to="/app/Login" className="appointment-btn scrollto">Login</Link>
 
@@ -87,8 +87,8 @@ const Home = () => {
                                 <div className="content">
                                     <h3>Why Choose HomeHospital?</h3>
                                     <p>Home Hospital delivers hospital care in the comfort and privacy of your own home.
-                                    You don’t need to stay in hospital to receive the care you need, we bring the care to you.
-                                  </p>
+                                        You don’t need to stay in hospital to receive the care you need, we bring the care to you.
+                                    </p>
                                     {/* <div className="text-center">
                                         <a href="#" className="more-btn">Learn More <i className="bx bx-chevron-right"></i></a>
                                     </div> */}
@@ -129,26 +129,26 @@ const Home = () => {
                 <section id="about" className="about">
                     <div className="container">
 
-                           <div>
+                        <div>
 
-                                <h3 className="section-title">About us</h3>
-                                <p>HomeHospital delivers quality care with compassion. We bring world class medical care into our patients’ homes and aim to make primary healthcare not only more accessible, but also more affordable and accountable to our patients’ needs..</p>
+                            <h3 className="section-title">About us</h3>
+                            <p>HomeHospital delivers quality care with compassion. We bring world class medical care into our patients’ homes and aim to make primary healthcare not only more accessible, but also more affordable and accountable to our patients’ needs..</p>
 
-                                <div className="icon-box">
-                                    <div className="icon"><i className="bx bx-fingerprint"></i></div>
-                                    <h4 className="title"><a href="">Vision</a></h4>
-                                    <p className="description">HomeHospital HomeCare aims to provide home healthcare of international standards in India. It is a constant endeavor to provide excellence in healthcare through our proactive partnerships with patients, their families and other healthcare providers</p>
-                                </div>
+                            <div className="icon-box">
+                                <div className="icon"><i className="bx bx-fingerprint"></i></div>
+                                <h4 className="title"><a href="">Vision</a></h4>
+                                <p className="description">HomeHospital HomeCare aims to provide home healthcare of international standards in India. It is a constant endeavor to provide excellence in healthcare through our proactive partnerships with patients, their families and other healthcare providers</p>
+                            </div>
 
-                                <div className="icon-box">
-                                    <div className="icon"><i className="bx bx-gift"></i></div>
-                                    <h4 className="title"><a href="">Mission</a></h4>
-                                    <p className="description">Our goal has always been to build trust and reliability. Now with Apollo HomeCare, we look forward to doing so, within the comfort and convenience of the patient's home.</p>
-                                </div>
+                            <div className="icon-box">
+                                <div className="icon"><i className="bx bx-gift"></i></div>
+                                <h4 className="title"><a href="">Mission</a></h4>
+                                <p className="description">Our goal has always been to build trust and reliability. Now with Apollo HomeCare, we look forward to doing so, within the comfort and convenience of the patient's home.</p>
+                            </div>
 
-                               
 
-                           
+
+
                         </div>
 
                     </div>
@@ -183,7 +183,7 @@ const Home = () => {
                                 </div>
                             </div>
 
-                           
+
                         </div>
 
                     </div>
@@ -205,7 +205,7 @@ const Home = () => {
                                     <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                                 </div>
                             </div> */}
-{/* 
+                            {/* 
                             <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
                                 <div className="icon-box">
                                     <div className="icon"><i className="fas fa-pills"></i></div>
@@ -213,7 +213,7 @@ const Home = () => {
                                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
                                 </div>
                             </div> */}
-{/* 
+                            {/* 
                             <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
                                 <div className="icon-box">
                                     <div className="icon"><i className="fas fa-hospital-user"></i></div>
@@ -259,14 +259,14 @@ const Home = () => {
                     </div>
                 </section>
 
- 
+
 
                 <section id="faq" className="faq section-bg">
                     <div className="container">
 
                         <div className="section-title">
                             <h2>Frequently Asked Questions</h2>
-                            
+
                         </div>
 
                         <div className="faq-list">
@@ -276,8 +276,8 @@ const Home = () => {
                                     <div id="faq-list-1" className="collapse show" data-bs-parent=".faq-list">
                                         <p>We accept Visa and MasterCard on our website.
 
-Our sales staff can also process other payment types manually, including checks and internet banking. To pay using one of these methods, please contact us to place your order.
-                    </p>
+                                            Our sales staff can also process other payment types manually, including checks and internet banking. To pay using one of these methods, please contact us to place your order.
+                                        </p>
                                     </div>
                                 </li>
 
@@ -285,8 +285,8 @@ Our sales staff can also process other payment types manually, including checks 
                                     <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" className="collapsed">What is your returns policy?<i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
                                     <div id="faq-list-2" className="collapse" data-bs-parent=".faq-list">
                                         <p>
-                                        Define Instruments will accept product returns for credit or exchange up to 30 DAYS after the dispatch date, provided that the returned product(s) are unused, and in original condition - complete with original documents and packaging.
-                    </p>
+                                            Define Instruments will accept product returns for credit or exchange up to 30 DAYS after the dispatch date, provided that the returned product(s) are unused, and in original condition - complete with original documents and packaging.
+                                        </p>
                                     </div>
                                 </li>
 
@@ -294,8 +294,8 @@ Our sales staff can also process other payment types manually, including checks 
                                     <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" className="collapsed">How do I contact Nurses & Ward Boys at Home Hospital? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
                                     <div id="faq-list-3" className="collapse" data-bs-parent=".faq-list">
                                         <p>
-                                        To contact our Nurses online, you can send your questions  by completing the form in the Contact Us section .
-                    </p>
+                                            To contact our Nurses online, you can send your questions  by completing the form in the Contact Us section .
+                                        </p>
                                     </div>
                                 </li>
 
@@ -303,8 +303,8 @@ Our sales staff can also process other payment types manually, including checks 
                                     <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" className="collapsed">How do I cancel my Nurse,WardBoy & Equipment Booking? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
                                     <div id="faq-list-4" className="collapse" data-bs-parent=".faq-list">
                                         <p>
-                                        If you wish to cancel your order, you can send an email request to homehospital@gmail.com. Please note that in case your order has already been charged or delivered, we cannot cancel it.
-                    </p>
+                                            If you wish to cancel your order, you can send an email request to homehospital@gmail.com. Please note that in case your order has already been charged or delivered, we cannot cancel it.
+                                        </p>
                                     </div>
                                 </li>
 
@@ -312,8 +312,8 @@ Our sales staff can also process other payment types manually, including checks 
                                     <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" className="collapsed">What if my product is damaged, wrong or missing? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
                                     <div id="faq-list-5" className="collapse" data-bs-parent=".faq-list">
                                         <p>
-                                        If damaged, or wrong, please send the Order ID and a picture of the damaged or wrong item, complete with the batch number clearly visible, to homehospital@gmail.com. If an item is missing, send an email, to homehospital@gmail.com. Please indicate if you prefer a refund or a replacement.
-                    </p>
+                                            If damaged, or wrong, please send the Order ID and a picture of the damaged or wrong item, complete with the batch number clearly visible, to homehospital@gmail.com. If an item is missing, send an email, to homehospital@gmail.com. Please indicate if you prefer a refund or a replacement.
+                                        </p>
                                     </div>
                                 </li>
 
@@ -323,14 +323,14 @@ Our sales staff can also process other payment types manually, including checks 
                     </div>
                 </section>
 
-                
+
 
                 <section id="gallery" className="gallery">
                     <div className="container">
 
                         <div className="section-title">
                             <h2>Gallery</h2>
-                       
+
                         </div>
                     </div>
 
@@ -448,7 +448,7 @@ Our sales staff can also process other payment types manually, including checks 
 
                             <div className="col-lg-8 mt-5 mt-lg-0">
 
-                            <Link to="/app/contact" className="appointment-btn scrollto">Contact us</Link>
+                                <Link to="/app/contact" className="appointment-btn scrollto">Contact us</Link>
 
                             </div>
 
@@ -469,8 +469,8 @@ Our sales staff can also process other payment types manually, including checks 
                                 <h3>HomeHospital</h3>
                                 <p>
                                     Rakabganj <br />
-                  Lucknow, UP 226018<br />
-                  India <br /><br />
+                                    Lucknow, UP 226018<br />
+                                    India <br /><br />
                                     <strong>Phone:</strong> +91 7849842621<br />
                                     <strong>Email:</strong> homehospital@gmail.com<br />
                                 </p>
@@ -493,7 +493,7 @@ Our sales staff can also process other payment types manually, including checks 
                                     <li><i className="bx bx-chevron-right"></i> <a href="#">Nurse</a></li>
                                     <li><i className="bx bx-chevron-right"></i> <a href="#">Ward Boy</a></li>
                                     <li><i className="bx bx-chevron-right"></i> <a href="#">Medical Equipment</a></li>
-                                    
+
                                 </ul>
                             </div>
                         </div>
@@ -505,7 +505,7 @@ Our sales staff can also process other payment types manually, including checks 
                     <div className="me-md-auto text-center text-md-start">
                         <div className="copyright">
                             &copy; Copyright <strong><span>HomeHospital</span></strong>. All Rights Reserved
-            </div>
+                        </div>
                         <div className="credits">
                             Designed by <b>Jayant Gupta </b>                      </div>
                     </div>

@@ -1,7 +1,7 @@
 const api_config = {
     port: 5000,
     db_url: "mongodb+srv://Rachit:rachit6518619@cluster0.yfa2c.mongodb.net/homehospital-fl?retryWrites=true&w=majority",
-    stripe_sk: "sk_test_51KtvTTSH5orWLNFBvscSVbTBvfpXGAXXPQhiqestxmJqWp8ZGmG5LTAUec4qiWzE0lBKtxX55rfQXCAMLOo0zV2300gZrxqQWV",
+    stripe_sk: "pk_test_51KtvTTSH5orWLNFB4WzOZb0MErvaHYmfowZJNoATpEoBdwe4XeWJC3j9RhuCbwLmbrZSGM1USh5kMoeWMrMGkl5Y00yBvLrBGS",
     // email: 'rachitsrivastava@gmail.com',
     // app_password: 'lcqfbskappyzidhy'
 

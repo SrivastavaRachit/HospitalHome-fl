@@ -111,7 +111,6 @@ const StaffCheckout = (props) => {
     getIntent().then((res) => {
       console.log(res);
       let clientSecret = res.client_secret;
-
       completePayment(clientSecret);
     });
   };
